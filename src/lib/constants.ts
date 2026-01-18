@@ -2,7 +2,7 @@ import { Feature, Benefit, PricingPlan, FAQItem } from '@/types';
 
 export const SITE_NAME = 'EcoReport';
 export const SITE_DESCRIPTION = 'Plataforma completa de gestão fiscal, financeira e pedidos';
-export const SITE_URL = 'https://ecoreport.app';
+export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://ecoreport.shop';
 
 export const FEATURES: Feature[] = [
   {

@@ -1,6 +1,8 @@
 'use client';
 
 import { useState } from 'react';
+import { trackConversion } from './Analytics';
+import LoadingSpinner from './LoadingSpinner';
 
 interface SignupModalProps {
   isOpen: boolean;
@@ -33,6 +35,12 @@ export default function SignupModal({ isOpen, onClose }: SignupModalProps) {
         throw new Error(data.error || 'Erro ao criar conta');
       }
 
+      // Track conversion across all platforms (GA4, Google Ads, Facebook Pixel)
+      trackConversion('signup_completed', undefined, {
+        source: 'modal',
+        method: 'form',
+      });
+
       setSuccess(true);
       setEmail('');
       setName('');
@@ -43,6 +51,14 @@ export default function SignupModal({ isOpen, onClose }: SignupModalProps) {
         setSuccess(false);
       }, 3000);
     } catch (err) {
+      // Track error (sem conversão, apenas evento)
+      const errorMessage = err instanceof Error ? err.message : 'unknown';
+      if (typeof window !== 'undefined' && (window as any).gtag) {
+        (window as any).gtag('event', 'exception', {
+          description: `Signup error: ${errorMessage}`,
+          fatal: false,
+        });
+      }
       setError(err instanceof Error ? err.message : 'Erro ao processar. Tente novamente.');
       console.error(err);
     } finally {
@@ -144,8 +160,9 @@ export default function SignupModal({ isOpen, onClose }: SignupModalProps) {
               <button
                 type="submit"
                 disabled={loading}
-                className="w-full px-4 py-2 bg-emerald-500 text-white rounded-lg font-medium hover:bg-emerald-600 disabled:opacity-50"
+                className="w-full px-4 py-3 bg-emerald-500 text-white rounded-lg font-medium hover:bg-emerald-600 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2 transition-colors"
               >
+                {loading && <LoadingSpinner size="sm" className="text-white" />}
                 {loading ? 'Criando conta...' : 'Criar Conta Grátis'}
               </button>
 
