@@ -70,7 +70,7 @@ NEXT_PUBLIC_GA_ID=G-XXXXXXXXXX
 
 **Para Plausible:**
 ```env
-NEXT_PUBLIC_PLAUSIBLE_DOMAIN=ecoreport.app
+NEXT_PUBLIC_PLAUSIBLE_DOMAIN=ecoreport.shop
 ```
 
 ### 📈 Event Tracking Implementado
@@ -118,10 +118,10 @@ Adicione ao `.env.local`:
 ```env
 # Analytics (opcional - escolha um ou ambos)
 NEXT_PUBLIC_GA_ID=G-XXXXXXXXXX          # Google Analytics 4
-NEXT_PUBLIC_PLAUSIBLE_DOMAIN=ecoreport.app  # Plausible Analytics
+NEXT_PUBLIC_PLAUSIBLE_DOMAIN=ecoreport.shop  # Plausible Analytics
 
 # Site Configuration (já existente)
-NEXT_PUBLIC_SITE_URL=https://ecoreport.app
+NEXT_PUBLIC_SITE_URL=https://ecoreport.shop
 GOOGLE_WEBHOOK_URL=https://script.google.com/macros/s/SEU_ID/exec
 NODE_ENV=production
 ```

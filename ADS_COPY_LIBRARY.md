@@ -102,7 +102,7 @@ Descrição 1: "Plataforma completa de gestão fiscal brasileira. Emissão NFCe 
 
 Descrição 2: "10.000+ empresas confiam. Dashboard inteligente, relatórios avançados, suporte em português. Comece hoje sem compromisso."
 
-Caminho 1: "ecoreport.app/comecar"
+Caminho 1: "ecoreport.shop/comecar"
 Caminho 2: "Gestão Fiscal | Teste Grátis"
 ```
 
@@ -117,7 +117,7 @@ Descrição 1: "Emita notas fiscais eletrônicas sem erros. Sistema integrado co
 
 Descrição 2: "Controle total de suas NFCes. Histórico completo, relatórios fiscais, backup automático. 10.000+ empresas já usam."
 
-Caminho 1: "ecoreport.app/planos"
+Caminho 1: "ecoreport.shop/planos"
 Caminho 2: "NFCe | Preços | Teste Grátis"
 ```
 
@@ -132,7 +132,7 @@ Descrição 1: "Controle todos os pedidos da sua empresa em um só lugar. Status
 
 Descrição 2: "Gestão completa de pedidos online. Criação, acompanhamento, relatórios. Integrado com notas fiscais e pagamentos."
 
-Caminho 1: "ecoreport.app/recursos"
+Caminho 1: "ecoreport.shop/recursos"
 Caminho 2: "Pedidos | Funcionalidades | Demo"
 ```
 
@@ -147,7 +147,7 @@ Descrição 1: "Gerenciamento completo de pagamentos PIX para sua empresa. QR Co
 
 Descrição 2: "Controle todos os pagamentos PIX em tempo real. Integrado com pedidos e notas fiscais. Teste 30 dias grátis."
 
-Caminho 1: "ecoreport.app/pix"
+Caminho 1: "ecoreport.shop/pix"
 Caminho 2: "PIX | Pagamentos | Teste Grátis"
 ```
 

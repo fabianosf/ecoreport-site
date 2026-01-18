@@ -38,7 +38,7 @@ export default function StructuredData() {
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'customer service',
-      email: 'contato@ecoreport.app',
+      email: 'contato@ecoreport.shop',
       availableLanguage: 'Portuguese',
     },
   };

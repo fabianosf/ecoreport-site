@@ -110,13 +110,13 @@ export default function Footer() {
             <h3 className="text-white font-semibold mb-6 text-lg">Suporte</h3>
             <ul className="space-y-3 text-sm">
               <li>
-                <a href="mailto:contato@ecoreport.app" className="text-slate-400 hover:text-emerald-400 transition-colors">
-                  📧 contato@ecoreport.app
+                <a href="mailto:contato@ecoreport.shop" className="text-slate-400 hover:text-emerald-400 transition-colors">
+                  📧 contato@ecoreport.shop
                 </a>
               </li>
               <li>
-                <a href="mailto:suporte@ecoreport.app" className="text-slate-400 hover:text-emerald-400 transition-colors">
-                  📞 suporte@ecoreport.app
+                <a href="mailto:suporte@ecoreport.shop" className="text-slate-400 hover:text-emerald-400 transition-colors">
+                  📞 suporte@ecoreport.shop
                 </a>
               </li>
               <li>

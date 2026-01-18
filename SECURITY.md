@@ -284,7 +284,7 @@ curl -X POST http://localhost:3000/api/signup \
   -d '{"email":"<script>alert(1)</script>@test.com","name":"Test","company":"Test"}'
 
 # 3. Verificar headers de segurança
-curl -I https://ecoreport.app | grep -i "x-"
+curl -I https://ecoreport.shop | grep -i "x-"
 ```
 
 ### Ferramentas Recomendadas

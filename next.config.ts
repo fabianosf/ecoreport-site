@@ -16,7 +16,7 @@ const nextConfig: NextConfig = {
   // Security headers
   async headers() {
     const isProduction = process.env.NODE_ENV === 'production';
-    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://ecoreport.app';
+    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://ecoreport.shop';
 
     // Content Security Policy
     const cspDirectives = [

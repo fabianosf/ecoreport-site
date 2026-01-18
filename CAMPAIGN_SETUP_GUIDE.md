@@ -110,7 +110,7 @@ Card 5: CTA + Preço
 ```
 
 #### 1.8 Link e Landing Page
-- **Link:** `https://ecoreport.app` (ou landing page específica)
+- **Link:** `https://ecoreport.shop` (ou landing page específica)
 - **Parâmetros UTM:**
   - `utm_source=facebook`
   - `utm_medium=cpc`
@@ -243,7 +243,7 @@ Descrição 1: Plataforma completa de gestão fiscal brasileira. Emissão NFCe a
 
 Descrição 2: 10.000+ empresas confiam. Dashboard inteligente, relatórios avançados. Teste 30 dias grátis sem compromisso.
 
-Caminhos: ecoreport.app/comecar | Gestão Fiscal
+Caminhos: ecoreport.shop/comecar | Gestão Fiscal
 ```
 
 **Anúncio 2:**
@@ -256,7 +256,7 @@ Descrição 1: Emita notas fiscais eletrônicas sem erros. Sistema integrado com
 
 Descrição 2: Controle total de NFCes, pedidos e PIX. Histórico completo, relatórios fiscais. Comece hoje grátis por 30 dias.
 
-Caminhos: ecoreport.app/planos | NFCe | Preços
+Caminhos: ecoreport.shop/planos | NFCe | Preços
 ```
 
 **Anúncio 3:**
@@ -269,7 +269,7 @@ Descrição 1: Centralize notas fiscais, pedidos e pagamentos PIX. Tudo automati
 
 Descrição 2: Economize 10h/semana em burocracia fiscal. 10.000+ empresas aumentaram eficiência em 40%. Teste grátis.
 
-Caminhos: ecoreport.app | Como Funciona | Demo
+Caminhos: ecoreport.shop | Como Funciona | Demo
 ```
 
 #### 1.6 Extensões de Anúncio

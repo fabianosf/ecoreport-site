@@ -48,7 +48,7 @@
    ```bash
    # No servidor de produção, configurar:
    GOOGLE_WEBHOOK_URL=https://script.google.com/macros/s/SEU_ID/exec
-   NEXT_PUBLIC_SITE_URL=https://ecoreport.app
+   NEXT_PUBLIC_SITE_URL=https://ecoreport.shop
    NODE_ENV=production
    ```
 

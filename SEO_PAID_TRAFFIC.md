@@ -141,10 +141,10 @@ NEXT_PUBLIC_GA_ID=G-XXXXXXXXXX
 
 **Exemplos de URLs com UTM:**
 ```
-https://ecoreport.app/?utm_source=google&utm_medium=cpc&utm_campaign=gestao_fiscal
-https://ecoreport.app/?utm_source=facebook&utm_medium=social&utm_campaign=saas
-https://ecoreport.app/?gclid=XXX  (Google Ads automático)
-https://ecoreport.app/?fbclid=XXX  (Facebook Ads automático)
+https://ecoreport.shop/?utm_source=google&utm_medium=cpc&utm_campaign=gestao_fiscal
+https://ecoreport.shop/?utm_source=facebook&utm_medium=social&utm_campaign=saas
+https://ecoreport.shop/?gclid=XXX  (Google Ads automático)
+https://ecoreport.shop/?fbclid=XXX  (Facebook Ads automático)
 ```
 
 **Arquivo:** `src/lib/utm.ts`
@@ -180,7 +180,7 @@ Adicione ao `.env.local`:
 
 ```env
 # Site Configuration
-NEXT_PUBLIC_SITE_URL=https://ecoreport.app
+NEXT_PUBLIC_SITE_URL=https://ecoreport.shop
 NODE_ENV=production
 
 # Google Services
@@ -192,7 +192,7 @@ NEXT_PUBLIC_GOOGLE_ADS_CONVERSION_LABEL=AW-XXXXXXXXXX/XXXX-XXXX-XXXX  # Conversi
 NEXT_PUBLIC_FACEBOOK_PIXEL_ID=XXXXXXXXXXXXXXX     # Facebook Pixel ID
 
 # Outros (Opcional)
-NEXT_PUBLIC_PLAUSIBLE_DOMAIN=ecoreport.app        # Plausible Analytics
+NEXT_PUBLIC_PLAUSIBLE_DOMAIN=ecoreport.shop        # Plausible Analytics
 
 # Google Sheets (já existente)
 GOOGLE_WEBHOOK_URL=https://script.google.com/macros/s/SEU_ID/exec
