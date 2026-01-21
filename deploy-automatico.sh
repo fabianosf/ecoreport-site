@@ -97,9 +97,9 @@ ENVEOF
     echo -e "${YELLOW}⚠️  IMPORTANTE: Edite .env.local e adicione GOOGLE_WEBHOOK_URL real!${NC}"
 fi
 
-# Instalar dependências
+# Instalar dependências (incluindo devDependencies para build)
 echo -e "${BLUE}📦 Instalando dependências...${NC}"
-npm install --production
+npm install
 
 # Build
 echo -e "${BLUE}🔨 Fazendo build...${NC}"

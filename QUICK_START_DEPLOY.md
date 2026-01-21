@@ -45,7 +45,7 @@ sudo chown -R fabianosf:fabianosf /var/www/ecoreport-site
 cd /var/www/ecoreport-site
 
 # 5. Instalar dependências
-npm install --production
+npm install
 
 # 6. Criar .env.local
 nano .env.local
@@ -117,7 +117,7 @@ cd /home/fabianosf/Desktop/ecoreport-site
 ssh fabianosf@92.113.33.16
 cd /var/www/ecoreport-site
 git pull origin main
-npm install --production
+npm install
 npm run build
 pm2 restart ecoreport-site
 ```

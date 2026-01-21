@@ -121,7 +121,7 @@ fi
 
 # Instalar dependências
 echo "📦 Instalando dependências..."
-npm install --production
+    npm install
 
 # Build
 echo "🔨 Fazendo build..."
