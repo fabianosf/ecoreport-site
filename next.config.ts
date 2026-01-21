@@ -19,6 +19,11 @@ const nextConfig: NextConfig = {
     const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://ecoreport.shop';
 
     // Content Security Policy
+    // Apenas aplicar upgrade-insecure-requests em HTTPS
+    const upgradeDirective = isProduction && siteUrl.startsWith('https://') 
+      ? "upgrade-insecure-requests" 
+      : "";
+    
     const cspDirectives = [
       "default-src 'self'",
       "script-src 'self' 'unsafe-inline' 'unsafe-eval'", // unsafe-eval needed for Next.js
@@ -29,8 +34,8 @@ const nextConfig: NextConfig = {
       "frame-ancestors 'self'",
       "base-uri 'self'",
       "form-action 'self'",
-      "upgrade-insecure-requests",
-    ].join('; ');
+      upgradeDirective,
+    ].filter(Boolean).join('; ');
 
     return [
       {
