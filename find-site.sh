@@ -100,3 +100,4 @@ echo -e "   sudo cat /etc/nginx/sites-available/${DOMAIN}"
 echo -e "   sudo ls -la /var/www/"
 echo -e "   sudo find /var/www -name '*clinica*'\n"
 
+
